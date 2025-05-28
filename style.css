@@ -42,7 +42,7 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
+  /* .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,6 +99,35 @@ header {
   transition: 0.5s ease-in-out;
 }
 
+ */
+
+
+ .container .card {
+  max-width: 300px;
+  max-height: 140px;
+  overflow: hidden;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 200px rgba(0, 0, 0, 0.5);
+  transition: max-height 0.5s ease-in-out;
+}
+
+.container .card:hover {
+  max-height: 380px;
+}
+
+.container .card .content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.container .card:hover .content {
+  opacity: 1;
+}
 
 
 
