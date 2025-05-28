@@ -53,6 +53,7 @@ header {
 }
 
 .container .card {
+  justify-content: center;
   max-width: 300px;
   height: 140px;
   background: #fff;
