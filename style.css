@@ -47,13 +47,13 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
-/* body {
+.product1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: $background-color;
+  background: background-color;
   min-height: 100vh;
-} */
+}
 
 .container {
   display: flex;
